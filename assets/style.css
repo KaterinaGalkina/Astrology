@@ -1,0 +1,334 @@
+/*Pour mettre l'image sur l'arriere-plan*/
+body{
+  background-image: url("images/general/arriere_plan.png");
+}
+
+/*Pour regler le logo*/
+.logo{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+}
+
+.alignement_en_colonne{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.alignement_en_ligne{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*Pour regler la page de start*/
+.page_de_start{
+  margin-right: 10px;
+  padding: 10px;
+}
+
+/*Pour mettre quelque chose au centre*/
+.centre{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Pour regler une barre de navigation*/
+header nav{
+  color: aqua;
+  margin: 300px
+}
+
+header nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li{ 
+  color: aliceblue;
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 150px;
+  height: 40px;
+  background-color: rgb(30, 20, 65);
+  line-height: 40px;
+  text-align: center;
+}
+
+header nav ul li a{
+  display: block;
+}
+
+header nav ul li a:hover{
+  background-color: rgb(73, 72, 124);
+  opacity: 0.7;
+}
+
+header nav ul li ul li{
+  display: none;
+}
+
+header nav ul li:hover ul li{
+  display:block;
+}
+
+
+/* Pour placer les barres de navigations au milieu */
+.barre_de_nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+/* Pour régler les textes du site */
+h3{
+  color:antiquewhite;
+  font-size: 23px;
+  margin: 30px;
+  font-family: FreeMono, monospace;
+}
+
+h2{
+  margin: 30px;
+  font-size: 28px;
+  font-family: FreeMono, monospace;
+}
+
+h1{
+  color: antiquewhite;
+  text-align: center;
+  font-family: FreeMono, monospace;
+
+}
+
+p{
+  color:rgb(255, 255, 255);
+  margin: 20px;
+  font-family: FreeMono, monospace;
+}
+
+a{ 
+  color:rgb(255, 255, 255);
+  font-family: FreeMono, monospace;
+}
+
+.predictions_texte{
+  color: rgb(151, 213, 248);
+  text-align: center;
+}
+
+
+/* Pour régler le formulaire */
+.cssform p{
+width: 300px;
+clear: left;
+margin: 0;
+padding: 5px 0 8px 0;
+padding-left: 155px;
+border-top: 1px dashed gray;
+height: 1%;
+}
+
+.cssform label{
+font-weight: bold;
+float: left;
+margin-left: -155px; 
+width: 150px;
+}
+
+.cssform input{
+  width: 180px;
+}
+
+.cssform textarea{
+width: 250px;
+height: 150px;
+}
+
+.formulaire{
+  margin: 100px;
+}
+
+
+/* Pour régler les 2 premières images du signe */
+.astro{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  margin-right: 30px;
+  padding: 30px;
+}
+
+/* Pour placer le 3e image du signe */
+.dernier{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pour régler tous les bouttons du site */
+button{
+  margin: 25px;
+  font-family: FreeMono, monospace;
+}
+
+
+/* Pour régler les tableaux */
+table {
+  width: 10%;
+  font-family: FreeMono, monospace;
+}
+
+td, th {
+  border: thin solid rgb(216, 220, 223);
+  width: 20%;
+  color: aliceblue;
+  margin:10px;
+  padding:10px; 
+  font-family: FreeMono, monospace;
+}
+
+
+/* Couleur de la page "Balance" */
+.balance{
+  color:rgb(58, 150, 85);
+}
+.balanceBut{
+  background-color: rgb(48, 124, 71);
+}
+.tab-balance{
+  border: medium solid rgb(58, 150, 85);
+}
+
+/* Couleur de la page "Belier" */
+.belier{
+  color: rgb(207, 35, 35);
+}
+.belierBut{
+  background-color: rgb(161, 26, 26);
+}
+.tab-belier{
+  border: medium solid rgb(207, 35, 35);
+}
+
+/* Couleur de la page "Cancer" */
+.cancer{
+  color: rgb(250, 128, 114);
+}
+.tab-cancer{
+  border: medium solid rgb(250, 128, 114);
+}
+.cancerBut{
+  background-color: rgb(190, 96, 87);
+}
+
+/* Couleur de la page "Lion" */
+.lion{
+  color: rgb(230, 184, 59);
+}
+.tab-lion{
+  border: medium solid rgb(230, 184, 59);
+}
+.lionBut{
+  background-color: rgb(199, 158, 46);
+}
+
+/* Couleur de la page "Sagittaire" */
+.sagittaire{
+  color: rgb(96, 7, 179);
+}
+.tab-sagittaire{
+  border: medium solid rgb(96, 7, 179);
+}
+.sagittaireBut{
+  background-color: rgb(81, 5, 153);
+}
+
+/* Couleur de la page "Capricorne" */
+.capricorneBut{
+  background-color:rgb(202, 106, 16);
+}
+.capricorne{
+  color:rgb(238, 131, 30);
+}
+.tab-capricorne{
+  border: medium solid rgb(238, 131, 30);
+}
+
+/* Couleur de la page "Poissons" */
+.poissons{
+  color: rgb(224, 129, 165);
+}
+.tab-poissons{
+  border: medium solid rgb(224, 129, 165);
+}
+.poissonsBut{
+  background-color: rgb(197, 118, 148);
+}
+
+/* Couleur de la page "Scorpion" */
+.scorpion{
+  color: rgb(3, 0, 194);
+}
+.tab-scorpion{
+  border: medium solid rgb(3, 0, 194);
+}
+.scorpionBut{
+  background-color: rgb(2, 0, 148);
+}
+
+/* Couleur de la page "Gemeaux" */
+.gemeaux{
+  color: rgb(141, 140, 140);
+}
+.tab-gemeaux{
+  border: medium solid rgb(141, 140, 140);
+}
+.gemeauxBut{
+  background-color: rgb(109, 108, 108);
+}
+
+/* Couleur de la page "Taureau" */
+.taureauBut{
+  background-color: rgb(38, 163, 38);
+}
+.taureau{
+  color: rgb(53, 173, 53);
+}
+.tab-taureau{
+  border: medium solid rgb(53, 173, 53);
+}
+
+/* Couleur de la page "Vierge" */
+.viergeBut{
+  background-color: rgb(160, 127, 252);
+}
+.vierge{
+  color: rgb(160, 127, 252);
+}
+.tab-vierge{
+  border: medium solid rgb(160, 127, 252);
+}
+
+/* Couleur de la page "Verseau" */
+.verseauBut{
+  background-color: rgb(87, 177, 236);
+}
+.verseau{
+  color: rgb(87, 177, 236);
+}
+.tab-verseau{
+  border: medium solid rgb(87, 177, 236);
+}
