@@ -1,21 +1,21 @@
-# La bonne aventure
+# Fortune Telling
 
 ## Execution
 
-Pour pouvoir exécuter le projet, ouvrez le dossier contenant le code source dans Visual Studio Code. Si ce n'est pas encore fait, installez l'extension "Open in Browser" de TechER.
+To run the project, open the folder containing the source code in Visual Studio Code. If you haven’t already, install the "Open in Browser" extension by TechER.
 
-Une fois cela fait, double-cliquez sur le fichier "index.html" et sélectionnez "Open in Default Browser".
+Once that’s done, double-click on the "index.html" file and select "Open in Default Browser".
 
-Juste après, une fenêtre s'ouvrira dans votre navigateur avec la page d'accueil.
+A window will then open in your browser with the homepage. *(Please note: the website is in French.)*
 
-## Concernant le site
+## About the Site
 
-Dès que vous avez lancé le site, vous êtes sur la page de départ. Cliquez sur "Start" pour continuer. Ensuite, vous pouvez choisir votre signe astrologique en survolant votre souris sur l'un des éléments qui représentent votre signe (pour le feu : Bélier, Lion, Sagittaire; terre : Capricorne, Taureau, Vierge; air : Balance, Verseau, Gémeaux; eau : Cancer, Scorpion, Poissons).
+As soon as the site launches, you’ll land on the start page. Click on "Start" to continue. Next, you can choose your zodiac sign by hovering your mouse over one of the symbols representing your sign (for fire: Aries, Leo, Sagittarius; earth: Capricorn, Taurus, Virgo; air: Libra, Aquarius, Gemini; water: Cancer, Scorpio, Pisces).
 
-De plus, dès que vous avez sélectionné votre signe, vous atterrissez sur la page comportant toutes les informations sur votre signe (le caractère, la compatibilité etc.). De plus, chaque signe a sa propre couleur associée et quelques mèmes pour vous amuser.
+Once you’ve selected your sign, you’ll arrive on a page with all the information about it (personality, compatibility, etc.). Each sign also has its own associated color and a few memes for fun.
 
-En haut de chaque page de signe, vous pouvez cliquer sur "Les prédictions pour vous!" ce qui vous redirigera vers une page où vous pourrez demander au boule de cristal des informations sur votre avenir. Dès que vous avez fini de jouer avec la boule de cristal, vous pouvez cliquer sur "retour" en bas de la page (faites défiler si vous ne le voyez pas) et vous serez redirigé vers la page d'accueil où vous pourrez à nouveau choisir votre signe.
+At the top of each sign’s page, you can click on "Predictions for you!" which will take you to a page where you can ask the crystal ball for insights about your future. When you're done playing with the crystal ball, you can click "back" at the bottom of the page (scroll down if you don't see it), and you’ll be redirected to the homepage where you can choose your sign again.
 
-À la fin de chaque page du signe astrologique se trouve un petit formulaire que, une fois rempli, vous pouvez soumettre en cliquant sur "envoyer" pour partager votre avis sur le site.
+At the bottom of each zodiac sign page, there’s a small form you can fill out and submit by clicking "Send" to share your thoughts about the site.
 
-Ce projet, réalisé en 2020, est le fruit d'une collaboration entre deux esprits créatifs. On a mis nos idées ensemble pour en faire quelque chose de génial !
+This project, created in 2020, is the result of a collaboration between two creative minds. We combined our ideas to make something awesome!
